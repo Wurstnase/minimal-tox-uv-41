@@ -1,0 +1,12 @@
+[project]
+name = "minimal-pdm"
+version = "0.1.0"
+description = "Default template for PDM package"
+dependencies = []
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
